@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="6" >
+
+    <com.yeyanxiang.view.pickerview.WheelView
+        android:id="@+id/pickeryear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" />
+
+    <com.yeyanxiang.view.pickerview.WheelView
+        android:id="@+id/pickermonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <com.yeyanxiang.view.pickerview.WheelView
+        android:id="@+id/pickerday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <com.yeyanxiang.view.pickerview.WheelView
+        android:id="@+id/pickerhour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <com.yeyanxiang.view.pickerview.WheelView
+        android:id="@+id/pickermins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

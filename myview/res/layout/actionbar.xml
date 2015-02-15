@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topactionbarlayout"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/top_background" >
+
+    <Button
+        android:id="@+id/left_title_btton"
+        android:layout_width="46dip"
+        android:layout_height="32dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dip"
+        android:background="@drawable/btn_title_confirm_selector"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/right_title_btton"
+        android:layout_width="46dip"
+        android:layout_height="32dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="6dip"
+        android:background="@drawable/btn_title_confirm_selector"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+    <com.yeyanxiang.view.MarqueeText
+        android:id="@+id/center_title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dip"
+        android:layout_marginRight="60dip"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
